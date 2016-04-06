@@ -52,7 +52,6 @@ Contents:
    - has performance issues
    
 + `static` variable
-   - `static` cannot be used for class
    - everything declared as `static` is related to class not object
    - multiple objects of a class share the same instance of static variable
    
@@ -63,7 +62,7 @@ Contents:
    - static method can only call static methods and not non-static methods
    - non-static methods can call static methods
    
-+ static class
++ `static` class
   - class cannot be declared as static
   - class is static if all variables and methods are static and constructor is private, so the only way to access is to use class name 
 
@@ -131,8 +130,10 @@ Contents:
   - `==` is used to compare the references of the objects
   - `equals()` can compare the values of two objects
   
-+ `StringBuffer` and `StringBuild`
++ `StringBuffer` vs `StringBuild` vs `String`
   - `StringBuffer` is synchronized but `StringBuild` is not
+  - `String` is an immutable object which means the value cannot be changed where as `StringBuffer` is mutable. 
+  - `StringBuffer` and `StringBuilder` classes are used when there is a necessity to make a lot of modifications to Strings of characters.
   
 + `final`, `finally`,`finalize()`
   - `final`: a final variable acts like constant, a final method cannot be overridden, a final class is immutable
@@ -152,6 +153,12 @@ Contents:
     + help in observing or manipulating runtime behavior
     + help in debugging or testing programs
     + can call method by name when we do not know the method in advance  
++ explain why java main function is `public static void main(String[]args)`
+  - public is a Aceessor Modifer. It means the main() function can be called from anywhere.
+  - static make the main() function can be called without instanlizing this class
+  - void mean the return type of main() function. main function return void(nothing)
+  - main is the keyword searched by JVM as the start of the application
+  - args is the paprameter for the main function
   
   
 <a name="OOP"/>
