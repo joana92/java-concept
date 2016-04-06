@@ -88,7 +88,7 @@ Contents:
 
 + `private constructor`
   - two main features
-    - a class with private class cannot be inherited 
+    - a class with private constructor cannot be inherited 
     - we cannot create a object od the class with private constructor
     - we donot want to create the instance of the class for protection
   
