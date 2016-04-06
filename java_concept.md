@@ -221,6 +221,7 @@ Contents:
     + resizable array implementation
     + dynamic size
     + not thread-safe
+    + time compelxity: contains,delete (O(n)); others (O(1))
   - Vector
     + ArrayList implementation
     + thread-safe
@@ -228,6 +229,7 @@ Contents:
     + also implements Queue interface
     + FIFO
     + faster for insertion and deletion
+    + Time complexity: get, contain(O(n)); others (O(1))
     
 + Set interface
   - SortedSet
@@ -244,6 +246,7 @@ Contents:
     + no guarantee on constant order
     + allow null element
     + O(1) time for add,remove,contains
+    + O(h/n) for next
     
 + Arrays and ArrayList
   - arrays are fixed size but ArrayLists are dynamic
