@@ -237,6 +237,17 @@ Contents:
     + FIFO
     + faster for insertion and deletion
     + Time complexity: get, contain(O(n)); others (O(1))
+  
++ Arrays and ArrayList
+  - arrays are fixed size but ArrayLists are dynamic
+  - elements in the array list can be added or removed at runtime
+  - array contains elements of same type but arraylist can contain elements of different type
+  
++ ArrayList and LinkedList
+  - both fast in insertion, inserting into arraylist and into first position of linkedlist takes O(1) time
+  - random lookup in ArrayList is fast, but slow for LinkedList
+  - remove is slow for ArrayList(elements need to be shifted) but fast for LinkedList
+  
     
 + Set interface
   - SortedSet
@@ -255,16 +266,7 @@ Contents:
     + O(1) time for add,remove,contains
     + O(h/n) for next
     
-+ Arrays and ArrayList
-  - arrays are fixed size but ArrayLists are dynamic
-  - elements in the array list can be added or removed at runtime
-  - array contains elements of same type but arraylist can contain elements of different type
-  
-+ ArrayList and LinkedList
-  - both fast in insertion, inserting into arraylist and into first position of linkedlist takes O(1) time
-  - random lookup in ArrayList is fast, but slow for LinkedList
-  - remove is slow for ArrayList(elements need to be shifted) but fast for LinkedList
-  
+
 + Advantage of iterator
    - used when no clue about object type
    - iterator allows updates
