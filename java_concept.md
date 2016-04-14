@@ -176,7 +176,7 @@ Contents:
   - only public and protected access modifiers can be accessed in child class
   
 + multiple inheritance
-  - Java does not support multiple inheritance
+  - _*Java does not support multiple inheritance*_ (Java can only inherite one class but it can implement multi-interfaces)
   - diamond problem
   - use of multiple interfaces (or extend a class and implement some interfaces)
   
@@ -193,6 +193,7 @@ Contents:
      ```
 + abstraction
   - convert real world objects in terms of class
+  - Different between `abstract class` and `concrete class`
   
 + encapsulation
   - achieved by combining the methods and attribute into a class
