@@ -8,6 +8,7 @@ Contents:
 - [Collections](#Collections)
 - [Threading, Lock](#Thread)
 - [Garbage Collection](#garbage)
+- [application](#application)
 
 
 ## Object Oriented
@@ -312,6 +313,12 @@ Contents:
 ## gabage collection in Java
 
 + Garbage Collection
+
+<a name="application" />
+
+## java in industry application
+
++ difference between different Java version
 
   
 
