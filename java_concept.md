@@ -7,7 +7,7 @@ Contents:
 - [OOP](#OOP)
 - [Collections](#Collections)
 - [Threading, Lock](#Thread)
-- [Garbage Collection](#java memory & garbage)
+- [Memory & Garbage Collection](#java memory & garbage)
 - [application](#application)
 
 
@@ -329,7 +329,12 @@ Contents:
 
 ## java memory & garbage
 
++ java memory management
+  - objects live in heap, and mehods and local variables live in stack. 
+ 
 + Garbage Collection
+  - all objects are garbage-collectable on the heap
+  - local bariables are declared inside a method. They are temporary. They only live as long as the method is on the stack
 
 <a name="application" />
 
