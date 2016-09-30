@@ -2,7 +2,7 @@
 
 Contents:
 
-- [Keywords](#Keywords)
+- [Keywords & data type](#Keywords)
 - [Concepts](#Concepts)
 - [OOP](#OOP)
 - [Collections](#Collections)
@@ -34,6 +34,8 @@ Contents:
   | double|         8 bytes            |     Double.MAX_VALUE = 2^1024 -1 |  
   
   int and long can be describled by 2^n, because one is 32 bits and another is 64 bits. However, float and double can not be describled in this way, because they use  IEEE 754 standar.
+  
++ Refrence Data Type
   
 + Access modifiers
 
@@ -330,9 +332,15 @@ Contents:
 ## java memory & garbage
 
 + java memory management
+
+Normally, java memory include: register, heap, stack.
+Stack: primitive data type, object reference(objects live in stack, the references are stored in stack)
+Heap: store the producted data by "new"
+The speed in stack is faster than heap. The data stored in stack could be shared
   - objects live in heap, and mehods and local variables live in stack. 
- 
+  - object reference variables live on the stack but as a reference to the object(???)
 + Garbage Collection
+  - aims to collect unreachable objects in heap
   - all objects are garbage-collectable on the heap
   - local bariables are declared inside a method. They are temporary. They only live as long as the method is on the stack
 
