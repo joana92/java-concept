@@ -36,6 +36,9 @@ Contents:
   int and long can be describled by 2^n, because one is 32 bits and another is 64 bits. However, float and double can not be describled in this way, because they use  IEEE 754 standar.
   
 + Refrence Data Type
+
+Reference data type: class, interface, array
+Differenc: primitive data type store the value of data. reference data type store the address of object
   
 + Access modifiers
 
