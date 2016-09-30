@@ -23,6 +23,18 @@ Contents:
 <a name="Keywords"/>
 
 ## Java Keywords
+
++ Primitive Data Type
+
+  | data type | number of bytes | range |
+  | -------- | ---------------- | --------------------------- |
+  | int    |         32 bits 4 bytes        |         [-2^31, 2^32-1]      |
+  | long   |         8 bytes            |         [-2^63, 2^63-1]          |
+  | float  |         4 bytes            |          [-Float.MAX_VALUE, Float.MAX_VALUE], Float.MAX_VALUE= 2^128-1 |
+  | double|         8 bytes            |     Double.MAX_VALUE = 2^1024 -1 |  
+  
+  int and long can be describled by 2^n, because one is 32 bits and another is 64 bits. However, float and double can not be describled in this way, because they use  IEEE 754 standar.
+  
 + Access modifiers
 
   | modifier | access in same package | access in different package |
