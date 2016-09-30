@@ -259,8 +259,13 @@ Contents:
   
 + ArrayList and LinkedList
   - both fast in insertion, inserting into arraylist and into first position of linkedlist takes O(1) time
-  - random lookup in ArrayList is fast, but slow for LinkedList
+  - random lookup (get, set)in ArrayList is fast, but slow for LinkedList. It needs to move point in linkedlist.
   - remove is slow for ArrayList(elements need to be shifted) but fast for LinkedList
+  
+  Follow up: a sorted numbers, do binary search, which one is faster? arraylist or linkedlist?
+  Answer: ArrayList, because it is faster in random get a element at certain index.
+  Follow up: which one is better if I need frequenctly add or remove elements?
+  Answer: LinkedList, because elements need to be shifted in arraylist, which means it will cost lots of time in moving and coping element. In linkedlist, cost in adding an element is fixed.
   
     
 + Set interface
