@@ -70,12 +70,12 @@ Differenc: primitive data type store the value of data. reference data type stor
    - has performance issues
    
 + `static` variable
+   - advantage: save memory, because it gets memorys only once in class area
    - everything declared as `static` is related to class not object
    - multiple objects of a class share the same instance of static variable
    
 + `static` method
-   - can be accessed without creating the objects
-   - use class name to access static method
+   - can be accessed without creating the objects, use class name to access static method
    - static method can only access static variables and not local or global non-static variable: because if the class is not instantiated and therefore the variables are not initialized and cannot be accessed from a static method
    - static method can only call static methods and not non-static methods
    - non-static methods can call static methods
