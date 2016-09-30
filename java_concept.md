@@ -7,7 +7,7 @@ Contents:
 - [OOP](#OOP)
 - [Collections](#Collections)
 - [Threading, Lock](#Thread)
-- [Garbage Collection](#garbage)
+- [Garbage Collection](#java memory & garbage)
 - [application](#application)
 
 
@@ -325,9 +325,9 @@ Contents:
     - When this happens, there is no possibility of the threads ever making forward progress unless some outside agent takes action to break deadlock
   - What will hanpend if too many locks in program?
   
-<a name="garbage" />
+<a name="java memory & garbage" />
 
-## gabage collection in Java
+## java memory & garbage
 
 + Garbage Collection
 
