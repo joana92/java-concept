@@ -188,6 +188,9 @@ Differenc: primitive data type store the value of data. reference data type stor
   - method override: a class method has same name and signature as a method in parent class, JVM determines the proper method to call at runtime
   - method overloading: method with same name but different signature, determined at compile time
   
+  Difference between: statitics polymorphism vs. dynamic polymorphism
+  Dynamic (run time) polymorphism is the polymorphism existed at run-time. Static (compile time) polymorphism is the polymorphism exhibited at compile time. 
+  
 + inheritance
   - allow a child class to inherit some properties from its parent class
   - use `extends` keyword
