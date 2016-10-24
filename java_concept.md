@@ -28,6 +28,7 @@ Contents:
 
   | data type | number of bytes | range |
   | -------- | ---------------- | --------------------------- |
+  | char    |         16 bits 4 bytes        |         ['\u0000', '\uffff']  |
   | int    |         32 bits 4 bytes        |         [-2^31, 2^32-1]      |
   | long   |         8 bytes            |         [-2^63, 2^63-1]          |
   | float  |         4 bytes            |          [-Float.MAX_VALUE, Float.MAX_VALUE], Float.MAX_VALUE= 2^128-1 |
@@ -189,7 +190,11 @@ Differenc: primitive data type store the value of data. reference data type stor
   - method overloading: method with same name but different signature, determined at compile time
   
   Difference between: statitics polymorphism vs. dynamic polymorphism
-  Dynamic (run time) polymorphism is the polymorphism existed at run-time. Static (compile time) polymorphism is the polymorphism exhibited at compile time. 
+  Dynamic (run time) polymorphism is the polymorphism existed at run-time. orverriding is an example of dynamic polymorphism.
+  Static (compile time) polymorphism is the polymorphism exhibited at compile time. overloading is an example of statistic polymorphism.
+  
++ Design Pattern
+  
   
 + inheritance
   - allow a child class to inherit some properties from its parent class
@@ -331,7 +336,12 @@ Differenc: primitive data type store the value of data. reference data type stor
     - When one thread wants to obtain access to an object, it requires a lock for that object.
     - DeadLock: occus when two or more threads are bocked, each waiting for a resouce held by the other thread/threads. 
     - When this happens, there is no possibility of the threads ever making forward progress unless some outside agent takes action to break deadlock
+    
+    Read lock? Write lock? Reader-Writer lock (shared-exclusive) lock? Nested lock? Conditional variable?
+
   - What will hanpend if too many locks in program?
+  - mandatory lock vs advisory lock
+
   
 <a name="java memory & garbage" />
 
