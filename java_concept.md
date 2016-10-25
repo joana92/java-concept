@@ -338,6 +338,7 @@ Differenc: primitive data type store the value of data. reference data type stor
     - When this happens, there is no possibility of the threads ever making forward progress unless some outside agent takes action to break deadlock
     
     Read lock? Write lock? Reader-Writer lock (shared-exclusive) lock? Nested lock? Conditional variable?
+    The read lock may be held simultaneously by multiple reader threads, so long as there are no writers. The write lock is exclusive.
 
   - What will hanpend if too many locks in program?
   - mandatory lock vs advisory lock
